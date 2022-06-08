@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.wrapper{
+    width: 60%;
+    background-color: grey;
+    margin: 0 auto;
+    /* display: grid;
+    grid-template-rows:1fr 1rf 1fr 1fr;
+    grid-gap: 20px; */
+    text-align: center;
+    
+
+}
+
+
+
+.smallPictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-gap: 10px;
+    padding:10px 20px;
+
+   
+}
+.picture{
+    /* width: 80%; */
+    background-color: gray;
+
+
+
+}
+
+/* @media screen and(max-width:50px)
+{
+    .wrapper{
+              grid-template-columns: 1fr;
+    }
+} */
+
+img{
+    width: 100%;
+    object-fit:fill;
+    background-color: white;
+}
+.gameInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    padding:10px 20px;
+    text-align: center;
+    margin-left: 30px;
+
+   
+}
+/* button{
+    background-color: red;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    color: wheat;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 30px;
+    
+
+} */
+.balls{
+    font-size: 50px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: darkkhaki;
+    border-radius: 5px;
+    border: solid 3px white;
+    /* margin-left: 25px; */
+}
+.message{
+    font-size: 35px;
+    color: red;
+    width: 100%;
+    text-align: center;
+    border: solid 1px white;
+    height: 100px;
+
+
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
